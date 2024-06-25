@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from "./homepage.module.css";
 import Image from 'next/image';
-import Hero from "@/app/assets/img/hero.png";
-import Sea from "@/app/assets/img/Sea.png"
+import Hero from "../../../../src/app/assets/img/hero.png";
+import Sea from "../../../../src/app/assets/img/Sea.png"
 
 function homepage() {
   return (
