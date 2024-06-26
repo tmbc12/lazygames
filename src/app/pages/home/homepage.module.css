@@ -1,13 +1,12 @@
 .firstcontainer {
     position: relative; 
-    background-image: url(../../../../public/assets/img/bg-1.png);
+    background-image: url('/assets/img/bg-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200vh;
     margin: 0;
     padding: 0;
 }
-
 
 .Heroimg {
     width: 100%;
@@ -17,24 +16,206 @@
     z-index: 2; 
 }
 
-.secondcontainer{
+.secondcontainer {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../../../public/assets/img/stars.png);
+    background-image: url('/assets/img/stars.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1; 
-    margin-top: 50%;
+    margin-top: 65%;
+    transition: top 0.1s ease-out; 
 }
 
-.seaimg{
+.sectiontwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.cloudimg {
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 55%;
+    margin-left: 35%;
+}
+
+.seaimg {
     width: 100%;
-    height: auto;
-    margin-top: 28%;
-    position: relative; 
-    z-index: 2; 
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 15%;
+}
+
+.sunimg {
+    bottom: 0;
+    left: 0;
+    margin-top: 34.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 36%;
+    overflow: hidden; 
+}
+
+.imgcontent {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 58%;
+    overflow: hidden; 
+}
+.sideimg{
+    top: 0;
+    right: 0;
+    margin-top: 20%;
+}
+
+
+/* Responsive Design */
+
+@media(max-width: 1440px) {
+    .firstcontainer{
+        height: 150vh;
+    }
+    .secondcontainer{
+        margin-top: 40%;
+    }
+   
+    .cloudimg {
+        width: 40%;
+        margin-top: 50%;
+        margin-left: 30%;
+    }
+    .seaimg {
+        margin-top: 10%;
+    }
+    .sunimg {
+        margin-top: 35.5%;
+    }
+    .imgcontent {
+        margin-top: 45%;
+    }
+    .sideimg{
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .firstcontainer {
+        height: 160vh;
+    }
+    .secondcontainer{
+        margin-top: 50%;
+    }
+    .sectiontwo{
+        margin-top: 20%;
+    }
+ 
+    .cloudimg {
+        width: 50%;
+        margin-top: 45%;
+        margin-left: 25%;
+    }
+    .seaimg {
+        margin-top: 15%;
+    }
+    .sunimg {
+        margin-top: 52%;
+    }
+    .imgcontent {
+        margin-top: 42%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .firstcontainer {
+        height: 138vh;
+    }
+    .secondcontainer {
+        margin-top: 42%;
+    }
+    .cloudimg {
+        width: 50%;
+        margin-top: 45%;
+        margin-left: 25%;
+    }
+    .seaimg {
+        margin-top: 16%;
+    }
+    .sunimg {
+        margin-top: 48%;
+    }
+    .imgcontent {
+        margin-top: 35.5%;
+    }
+    .treeimg{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .sideimg{
+        margin-top: -80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cloudimg {
+        width: 60%;
+        margin-top: 40%;
+        margin-left: 20%;
+    }
+    .seaimg {
+        margin-top: 0;
+    }
+    .sunimg {
+        margin-top: 20%;
+    }
+    .imgcontent {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .cloudimg {
+        width: 70%;
+        margin-top: 35%;
+        margin-left: 15%;
+    }
+    .seaimg {
+        margin-top: 0;
+    }
+    .sunimg {
+        margin-top: 15%;
+    }
+    .imgcontent {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 400px) {
+    .cloudimg {
+        width: 80%;
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+    .seaimg {
+        margin-top: 0;
+    }
+    .sunimg {
+        margin-top: 10%;
+    }
+    .imgcontent {
+        margin-top: 10%;
+    }
 }
