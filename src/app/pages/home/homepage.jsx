@@ -71,7 +71,7 @@ function Homepage() {
             </div>
             <div className={styles.imgcontent}>
               <Parallax
-                translateX={["30%", "0%"]}
+                translateX={["40%", "0%"]}
                 scale={[1, 1]}
                 easing="easeInOutQuad"
               >
