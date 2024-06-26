@@ -38,7 +38,7 @@ function Homepage() {
       </div>
 
       {/* second section */}
-      <div className={styles.second_section}>
+      {/* <div className={styles.second_section}>
         <div className={styles.secondcontainer} ref={secondContainerRef}>
           <Image
             src="/assets/img/sun.png"
@@ -66,7 +66,7 @@ function Homepage() {
                 alt="Sea Image"
                 className={styles.seaimg}
                 width={2000}
-                height={24}
+                height={240}
               />
             </div>
             <div className={styles.imgcontent}>
@@ -108,7 +108,7 @@ function Homepage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
