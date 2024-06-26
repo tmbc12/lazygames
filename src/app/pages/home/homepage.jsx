@@ -62,7 +62,7 @@ function Homepage() {
             </div>
             <div>
               <Image
-                src="/assets/img/Sea.png"
+                src="/assets/img/sea.png"
                 alt="Sea Image"
                 className={styles.seaimg}
                 width={2000}
